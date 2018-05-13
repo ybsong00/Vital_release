@@ -112,7 +112,7 @@ for To = 2:nFrames;
     
     % evaluate the candidates
     feat_fc = mdnet_features_fcX(net_fc, feat_conv, opts);
-    feat_fc = squeeze(feat_fc)';
+    feat_fc = squeeze(feat_fc);
     [scores,idx] = sort(feat_fc(:,2),'descend');
     target_score = mean(scores(1:5));
     targetLoc = round(mean(samples(idx(1:5),:)));
