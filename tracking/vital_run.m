@@ -60,7 +60,7 @@ fprintf('  training cnn...\n');
 net_fc = mdnet_finetune_hnm(net_fc,pos_data,neg_data,opts,...
     'maxiter',opts.maxiter_init,'learningRate',opts.learningRate_init);
 
-net_G = G_pretrain(net_fc, net_G, neg_data, opts_net);
+net_G = G_pretrain(net_fc, net_G, pos_data, opts_net);
 
 %% Initialize displayots
 if display
