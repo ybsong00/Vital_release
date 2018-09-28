@@ -1,5 +1,5 @@
 This is the implementation of our VITAL paper. The project page can be found here:
-https://ybsong00.github.io/cvpr18/index.html
+https://ybsong00.github.io/cvpr18_tracking/index.html
 
 The pipeline is built upon the MDNet tracker for your reference:
 http://cvlab.postech.ac.kr/research/mdnet/
