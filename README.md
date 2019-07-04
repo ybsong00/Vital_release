@@ -6,6 +6,8 @@ http://cvlab.postech.ac.kr/research/mdnet/
 
 Try 'tracking/demo_tracking.m' to see the tracker performance on the Bolt sequences.
 
+A pytorch implemenation is provided here: https://github.com/abnerwang/py-Vital. Thanks to David Wang.
+
 <p>If you find the code useful, please cite both VITAL and MDNet:</p>
 
 <pre><code>@inproceedings{nam-cvpr16-MDNET,
